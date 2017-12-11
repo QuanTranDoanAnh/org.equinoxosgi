@@ -8,4 +8,4 @@ Import-Package: org.equinoxosgi.toast.dev.airbag,
  org.equinoxosgi.toast.dev.gps,
  org.osgi.framework;version="1.8.0",
  org.osgi.util.tracker;version="1.5.1"
-Bundle-Activator: org.equinoxosgi.toast.internal.client.emergency.bundle.Activator
+Service-Component: OSGI-INF/component.xml

@@ -6,6 +6,6 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: org.equinoxosgi.toast.dev.airbag
 Require-Bundle: org.eclipse.equinox.common;bundle-version="3.9.0"
-Bundle-Activator: org.equinoxosgi.toast.internal.dev.airbag.fake.bundle.Activator
 Import-Package: org.eclipse.core.runtime.jobs,
  org.osgi.framework;version="1.8.0"
+Service-Component: OSGI-INF/component.xml

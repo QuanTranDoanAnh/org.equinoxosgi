@@ -6,5 +6,5 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: OSGi and Equinox
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: org.equinoxosgi.toast.dev.gps
-Bundle-Activator: org.equinoxosgi.toast.internal.dev.gps.fake.bundle.Activator
 Import-Package: org.osgi.framework;version="1.8.0"
+Service-Component: OSGI-INF/component.xml
